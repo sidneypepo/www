@@ -1,3 +1,5 @@
 #+title: Sidney PEPO's Website
+#+include: nav_bar.org
 
 * Hello world!
+Now this website has a theme switch 🎉
