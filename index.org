@@ -1,5 +1,12 @@
 #+title: Sidney PEPO's Website
+#+author: Sidney PEPO
+#+date: [2026-06-22 Mon]
+
 #+include: nav_bar.org
 
-* Hello world!
-Now this website has a theme switch 🎉
+* Sidney PEPO
+#+include: "sidneypepo/cv/cv.org::**Summary*" :lines "2-"
+
+- [[file:curriculum.org][Curriculum Vitae]] ([[file:sidneypepo/cv/cv.pdf][PDF]])
+
+- [[file:contact.org][Contact]]

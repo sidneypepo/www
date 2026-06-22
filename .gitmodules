@@ -1,0 +1,3 @@
+[submodule "sidneypepo"]
+	path = sidneypepo
+	url = https://github.com/sidneypepo/sidneypepo.git

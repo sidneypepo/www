@@ -1,0 +1,35 @@
+@font-face {
+	font-family: 'IojetkaNF Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('IojetkaNerdFont-Regular.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'IojetkaNF Web';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('IojetkaNerdFont-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'IojetkaNF Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('IojetkaNerdFont-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'IojetkaNF Web';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('IojetkaNerdFont-BoldItalic.ttf') format('truetype');
+}

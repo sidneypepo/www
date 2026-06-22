@@ -1,0 +1,77 @@
+@import url("/assets/font/iojetka/Iojetka.css");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-family: "IojetkaNF Web", monospace;
+    color-scheme: dark light;
+
+    --color-bg: #DFDFDA;
+    --color-bg-alt: #E9E9E2;
+    --color-fg: #111111;
+    --color-fg-alt: #444;
+
+    --color-highlight: #C80;
+    --color-primary: #C00;
+    --color-secundary: #A0C;
+    --color-anchor: #03C;
+}
+
+:root:has(#theme-switch:checked) {
+    --color-bg: #202025;
+    --color-bg-alt: #16161D;
+    --color-fg: #EEE;
+    --color-fg-alt: #BBB;
+
+    --color-highlight: #FB1;
+    --color-primary: #FF5050;
+    --color-secundary: #F287F2;
+    --color-anchor: #7391FF;
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#content {
+    text-align: justify;
+    width: 50%;
+}
+
+#theme-switch:hover, #theme-switch-label:hover {
+    cursor: pointer;
+}
+
+h1, h2 {
+    color: var(--color-primary);
+}
+
+p {
+    padding-top: 1pt;
+    padding-bottom: 10pt;
+}
+
+a {
+    color: var(--color-anchor);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+blockquote {
+    color: var(--color-fg-alt);
+    background-color: var(--color-bg-alt);
+    border-left: solid 3px;
+    padding: 10pt 10pt 0 10pt;
+    margin: 5pt 0;
+}

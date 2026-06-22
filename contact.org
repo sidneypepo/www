@@ -1,0 +1,8 @@
+#+title: Contact | Sidney PEPO's Website
+#+author: Sidney PEPO
+#+date: [2026-06-22 Mon]
+
+#+include: nav_bar.org
+
+* Contact
+- E-mail: [[mailto:sidneypepo@disroot.org][sidneypepo@disroot.org]] ([[file:sidneypepo/pgp/0xA188DCCE6CD96D52.asc][PGP key]])

@@ -1,3 +1,4 @@
+[[file:index.org][Home]]
 #+begin_export html
 <form>
   <input type="checkbox" id="theme-switch" name="theme-switch" checked>
