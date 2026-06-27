@@ -6,7 +6,7 @@
 
 ;; Author: Sidney PEPO <sidneypepo@disroot.org>
 
-;; Version: 20260622
+;; Version: 20260630
 ;; Keywords: webpage, curriculum vitae, cv, resume
 
 ;; This file is not part of GNU Emacs.
@@ -85,7 +85,22 @@
 		 :html-html5-fancy t
 		 :html-indent t
 		 :html-metadata-timestamp-format ""
-		 :html-postamble nil
+		 :html-postamble "<footer>
+<p>Copyright (C) 2026 Sidney PEPO</p>
+</footer>"
+		 :html-preamble "<header>
+<h1><a href=\"index.html\">Sidney PEPO</a></h1>
+</header>
+
+<nav>
+<form>
+<p><a href=\"index.html\">Home</a><p>
+
+<input type=\"checkbox\" id=\"theme-switch\" name=\"theme-switch\" checked>
+<label for=\"theme-switch\" id=\"theme-switch-label\">Theme switch</label>
+</form>
+</nav>"
+		 :html-self-link-headlines t
 		 :html-toplevel-hlevel 1
 		 :section-numbers nil
 		 :with-creator nil

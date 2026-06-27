@@ -1,11 +1,12 @@
 #+title: Sidney PEPO's Website
 #+author: Sidney PEPO
-#+date: [2026-06-22 Mon]
+#+date: [2026-06-30 Tue]
 
-#+include: nav_bar.org
-
-* Sidney PEPO
-#+include: "sidneypepo/cv/cv.org::**Summary*" :lines "2-"
+* Home
+:PROPERTIES:
+:CUSTOM_ID: home
+:END:
+#+include: "sidneypepo/cv/cv.org::#summary" :only-contents t
 
 - [[file:curriculum.org][Curriculum Vitae]] ([[file:sidneypepo/cv/cv.pdf][PDF]])
 

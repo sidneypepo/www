@@ -10,19 +10,26 @@
     <link rel="stylesheet" href="/assets/css/style.css" type="text/css"/>
   </head>
   <body>
+    <div id="preamble" class="status">
+      <header>
+	<h1><a href="index.html">Sidney PEPO</a></h1>
+      </header>
+
+      <nav>
+	<form>
+	  <p><a href="index.html">Home</a><p>
+
+	    <input type="checkbox" id="theme-switch" name="theme-switch" checked>
+	    <label for="theme-switch" id="theme-switch-label">Theme switch</label>
+	</form>
+      </nav>
+    </div>
     <div id="content" class="content">
-      <p>
-	<a href="index.html">Home</a>
-      </p>
-      <form>
-	<input type="checkbox" id="theme-switch" name="theme-switch" checked>
-	<label for="theme-switch" id="theme-switch-label">Theme switch</label>
-      </form>
-      <div class="outline-1">
-	<h1>Sidney PEPO</h1>
-	<div class="outline-text-1">
+      <div id="outline-container-home" class="outline-1">
+	<h1 id="home"><a href="#home">Home</a></h1>
+	<div class="outline-text-1" id="text-home">
 	  <p>
-	    <b>Detail-oriented cybersecurity researcher with a strong ten-year background in
+	    <b>Detail-oriented cybersecurity researcher with a strong 10-year background in
 	      SecOps, focused on Purple Team operations, specialized in the investigation of
 	      critical widely deployed computational entities. Experienced in collaborating to
 	      complex projects by adopting the leading industry standards for continuous
@@ -39,6 +46,11 @@
 	  </ul>
 	</div>
       </div>
+    </div>
+    <div id="postamble" class="status">
+      <footer>
+	<p>Copyright (C) 2026 Sidney PEPO</p>
+      </footer>
     </div>
   </body>
 </html>

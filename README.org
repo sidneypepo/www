@@ -1,6 +1,9 @@
 #+title: README
 #+author: Sidney PEPO
-#+date: [2026-06-22 Mon]
+#+date: [2026-06-30 Tue]
 
 * www
+:PROPERTIES:
+:CUSTOM_ID: www
+:END:
 This is the repo README. Check [[file:index.org]] for the actual site index.

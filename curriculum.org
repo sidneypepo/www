@@ -1,15 +1,19 @@
 #+title: Curriculum Vitae | Sidney PEPO's Website
 #+author: Sidney PEPO
-#+date: [2026-06-22 Mon]
-
-#+include: nav_bar.org
-
-* Curriculum Vitae ([[file:sidneypepo/cv/cv.pdf][PDF]])
+#+date: [2026-06-30 Tue]
 
 #+include: "sidneypepo/cv/README.org"
 
+* Curriculum Vitae
+:PROPERTIES:
+:CUSTOM_ID: curriculum_vitae
+:END:
+Looking for the [[file:sidneypepo/cv/cv.pdf][​*PDF version*? Click here]] to get it.
+
 ** Contact
-[[file:contact.org][Contact page]]
+:PROPERTIES:
+:CUSTOM_ID: contact
+:END:
+Looking for the [[file:contact.org][​*Contact page*? Click here]] to get it.
 
 #+include: "sidneypepo/cv/cv.org" :minlevel 2
-
